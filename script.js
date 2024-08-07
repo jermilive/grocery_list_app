@@ -1,5 +1,5 @@
 // ================================
-// ==== To-Do App Javascript ====
+// ==== grocery list App Javascript ====
 // ================================
 
 // Code for pressing "Enter" key
