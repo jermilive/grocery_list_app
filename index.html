@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- =================== -->
+  <!-- ==== to-do app ==== -->
+  <!-- =================== -->
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Groceries</title>
+  </head>
+  <body>
+    <div class="header">
+      <h2>Groceries</h2>
+      <input type="text" id="itemInput" placeholder="Item..." />
+      <span id="addItemBtn" onclick="newElement()" class="addItemBtn">Add</span>
+    </div>
+    <div class="dark-mode">
+      <button onclick="darkMode()" type="button">Toggle Dark Mode</button>
+    </div>
+    <ul id="myUL"></ul>
+    <script src="script.js"></script>
+  </body>
+</html>
